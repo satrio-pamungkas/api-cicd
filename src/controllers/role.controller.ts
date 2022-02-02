@@ -1,5 +1,5 @@
-import { Request, response, Response } from 'express';
-import { Role, RoleInput } from '../models/user.role';
+import { Request, Response } from 'express';
+import { Role, RoleInput } from '../models/role.model';
 
 const testing = async (req: Request, res: Response) => {
     return res.status(200).json({
