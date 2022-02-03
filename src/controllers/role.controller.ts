@@ -3,7 +3,8 @@ import { Role, RoleInput } from '../models/role.model';
 
 const testing = async (req: Request, res: Response) => {
     return res.status(200).json({
-        pesan: 'Hello World'
+        pesan: 'Hello World',
+        name: 'Satrio'
     });
     
 }
